@@ -15,6 +15,7 @@
   margin: 3px;
   background-color: rgba(201, 199, 193, 0.4);
 }
+
 body{
   text-align: center;
   margin-left: 15%;
@@ -52,3 +53,37 @@ h1{
    top: 0px;
    left: 50%;
  }
+
+ @media screen and (max-width: 1000px) and (min-width: 480px) {
+   body {
+     background-color: black;
+     color: gold;
+     }
+     .columnl{
+       float: none;
+     }
+     .columnr{
+       float: none;
+     }
+
+ }
+  @media screen and (max-width: 480px) {
+    .columnl{
+      width: 50%;
+      float: none;
+    }
+    .columnr{
+      width: 50%;
+      float: none;
+    }
+
+    img {
+      width: 50%;
+    }
+
+    body {
+      background-color: teal;
+      margin-left: 20%;
+
+    }
+  }
